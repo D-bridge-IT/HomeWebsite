@@ -1,0 +1,53 @@
+.emailForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 40px;
+  border: #2e69c6 solid 3px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+@media screen and (max-width: 768px) {
+  .emailForm {
+    margin: 0 auto;
+    max-width: 270px;
+  }
+}
+.emailForm label {
+  margin-bottom: 0.5rem;
+}
+.emailForm input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all 50ms;
+}
+.emailForm input:focus-visible {
+  outline: #2e69c6 2px solid;
+}
+.emailForm textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 150px;
+  transition: all 50ms;
+}
+.emailForm textarea:focus-visible {
+  outline: #2e69c6 2px solid;
+}
+.emailForm button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.emailForm button:hover {
+  background-color: #0056b3;
+}
+
+/*# sourceMappingURL=EmailForm.css.map */

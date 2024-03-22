@@ -1,0 +1,47 @@
+.contentBlockWrapper {
+  display: flex;
+  max-width: 1400px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: rgba(56, 127, 229, 0.4);
+  margin: 0 auto 70px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  &__img {
+    max-width: 65%;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 20px;
+      max-width: 100%;
+    }
+  }
+
+  &__content {
+    max-width: 35%;
+    width: 100%;
+    text-align: left;
+    margin-left: 50px;
+    @media screen and (max-width: 768px) {
+      max-width: 90%;
+      margin-bottom: 20px;
+      margin-left: 10px;
+    }
+
+    &__title {
+      font-size: 90px;
+      margin-bottom: 50px;
+      font-weight: 500;
+      @media screen and (max-width: 768px) {
+        font-size: 45px;
+      }
+    }
+
+    &__description {
+      font-size: 40px;
+      font-weight: 300;
+      margin-bottom: 30px;
+    }
+  }
+}

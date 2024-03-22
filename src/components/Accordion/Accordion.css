@@ -1,0 +1,88 @@
+.accordionWrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .accordionWrapper {
+    flex-direction: column;
+  }
+}
+.accordionWrapper__leftSide {
+  max-width: 650px;
+  margin: 0 40px 0 0;
+}
+@media screen and (max-width: 768px) {
+  .accordionWrapper__leftSide {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+.accordionWrapper__leftSide__title {
+  display: flex;
+  font-size: 28px;
+  margin-bottom: 30px;
+  height: 60px;
+}
+@media screen and (max-width: 768px) {
+  .accordionWrapper__leftSide__title {
+    margin-left: 10px;
+  }
+}
+.accordionWrapper__leftSide__description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  height: 60px;
+}
+@media screen and (max-width: 768px) {
+  .accordionWrapper__leftSide__description {
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+}
+.accordionWrapper__rightSide {
+  max-width: 650px;
+}
+@media screen and (max-width: 768px) {
+  .accordionWrapper__rightSide {
+    width: 100%;
+  }
+}
+.accordionWrapper__rightSide__title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  height: 60px;
+}
+@media screen and (max-width: 768px) {
+  .accordionWrapper__rightSide__title {
+    margin-bottom: 50px;
+    margin-left: 10px;
+  }
+}
+.accordionWrapper__rightSide__description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  height: 60px;
+}
+@media screen and (max-width: 768px) {
+  .accordionWrapper__rightSide__description {
+    margin-bottom: 50px;
+    margin-left: 10px;
+  }
+}
+
+.title {
+  font-size: 50px;
+  margin: 0 auto 50px;
+  max-width: 1400px;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 45px;
+    margin-left: 10px;
+  }
+}
+
+/*# sourceMappingURL=Accordion.css.map */
