@@ -19,7 +19,7 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://d-bridge-it.github.io/",
+  "homepage": "https://d-bridge-it.github.io/HomeWebsite/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
