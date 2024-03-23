@@ -13,7 +13,7 @@ const Home = () => {
     <div className={"home"}>
       <Header></Header>
       <ContentBlock
-        imageSrc="/images/work.jpg"
+        imageSrc="./images/work.jpg"
         heading="D-Bridge"
         description="Построй своё будущее вместе с нами"
       ></ContentBlock>

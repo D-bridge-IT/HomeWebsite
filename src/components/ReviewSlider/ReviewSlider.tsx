@@ -25,7 +25,7 @@ class ReviewSlider extends Component {
             <div className={"slider-container__reviewContainer"}>
               <img
                 className={"slider-container__reviewContainer__img"}
-                src={"/images/review1.png"}
+                src={"./images/review1.png"}
               />
               <p className={"slider-container__reviewContainer__name"}>
                 Aleksandr
@@ -46,7 +46,7 @@ class ReviewSlider extends Component {
             <div className={"slider-container__reviewContainer"}>
               <img
                 className={"slider-container__reviewContainer__img"}
-                src={"/images/review5.png"}
+                src={"./images/review5.png"}
               />
               <p className={"slider-container__reviewContainer__name"}>
                 Gabriel
@@ -67,7 +67,7 @@ class ReviewSlider extends Component {
             <div className={"slider-container__reviewContainer"}>
               <img
                 className={"slider-container__reviewContainer__img"}
-                src={"/images/review3.png"}
+                src={"./images/review3.png"}
               />
               <p className={"slider-container__reviewContainer__name"}>
                 Martin
@@ -88,7 +88,7 @@ class ReviewSlider extends Component {
             <div className={"slider-container__reviewContainer"}>
               <img
                 className={"slider-container__reviewContainer__img"}
-                src={"/images/review2.png"}
+                src={"./images/review2.png"}
               />
               <p className={"slider-container__reviewContainer__name"}>Maria</p>
               <p className={"slider-container__reviewContainer__description"}>
@@ -107,7 +107,7 @@ class ReviewSlider extends Component {
             <div className={"slider-container__reviewContainer"}>
               <img
                 className={"slider-container__reviewContainer__img"}
-                src={"/images/review4.png"}
+                src={"./images/review4.png"}
               />
               <p className={"slider-container__reviewContainer__name"}>
                 Sebastian
