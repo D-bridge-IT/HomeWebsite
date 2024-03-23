@@ -27,24 +27,24 @@ const PossibilitiesBlock = () => {
       <hr className={"possibilitiesBlockWrapper__divider"}></hr>
       <div className={"possibilitiesBlockWrapper__itemsSide"}>
         <PosibilitiesItem
-          image={"./logo/earphone.svg"}
+          image={"/logo/earphone.svg"}
           title={"Консультации"}
           description={"Проконсультируем вас по любому вопросу."}
         />
         <PosibilitiesItem
-          image={"./logo/gamepad.svg"}
+          image={"/logo/gamepad.svg"}
           title={"Программы для детей"}
           description={
             "Поможем ребенку как в учебе, так и в творческом или спортивном развитии."
           }
         />
         <PosibilitiesItem
-          image={"./logo/plan.svg"}
+          image={"/logo/plan.svg"}
           title={"Интеграция"}
           description={"Поможем в интеграции в новое общество."}
         />
         <PosibilitiesItem
-          image={"./logo/wallet.svg"}
+          image={"/logo/wallet.svg"}
           title={"Трудоустройство"}
           description={
             "Сделаем всё возможное для вашего скорейшего трудоустройства."

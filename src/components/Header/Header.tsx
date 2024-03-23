@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <div className="header__img">
-        <img className="header__img__logo" src={"./logo/logo.svg"} alt="logo" />
+        <img className="header__img__logo" src={"/logo/logo.svg"} alt="logo" />
       </div>
       <nav className="header__nav">
         <ul className="header__nav__list">
