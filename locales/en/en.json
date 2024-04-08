@@ -1,0 +1,76 @@
+{
+  "header": {
+    "contact": "Contact",
+    "aboutUs": "About Us"
+  },
+  "banner": {
+    "description": "A better future for all"
+  },
+  "imgBlock": {
+    "title": "Shape your future together with us.",
+    "description": "We are a group of committed individuals with different views, nationalities, and faiths who have been voluntarily assisting Ukrainian war refugees since February 24, 2022. Over time, our initiative has grown into a public movement. To address the challenges of today and improve the quality of assistance for ALL citizens coming to or already in the Federal Republic of Germany, to end the fragmentation of voluntary efforts, and to promote the exchange of experiences of each of us, we have decided to unite our efforts and register as a nonprofit organization D-Bridge.",
+    "mission": "Our Mission:",
+    "item1": "Support for nonprofit and educational initiatives",
+    "item2": "Integration of foreigners into German society",
+    "item3": "Provision of counseling services",
+    "item4": "Training and language courses",
+    "item5": "Assistance with job search and internships",
+    "item6": "Promotion of cultural and sports events",
+    "item7": "Other initiatives by association members"
+  },
+  "possibilitiesItem": {
+    "title1": "Counseling",
+    "description1": "The experts of D-Bridge offer counseling in the areas of migration policy, labor law, housing and communal economy. We support communication with local authorities and other government agencies. We provide comprehensive support in everyday life, including assistance in applying for benefits, social assistance, support in preparing applications, and document creation.",
+    "title2": "Programs for Children",
+    "description2": "D-Bridge offers support and counseling on educational programs for children. With the support of D-Bridge, a school for children's development is being opened.",
+    "title3": "Integration",
+    "description3": "D-Bridge deals with the integration of citizens by offering a comprehensive service package aimed at successful adaptation and active participation in social life. We provide counseling on migration issues, offer accompaniment and support with administrative formalities, help with housing search, job search, and language learning.",
+    "title4": "Job Placement",
+    "description4": "Currently, D-Bridge maintains partnerships with various educational institutions, employers, and chambers of commerce and can offer obtaining new qualifications or recognition of existing ones."
+  },
+  "accordion": {
+    "title": "How exactly can we help?",
+    "label1": "Analysis of people's expectations and needs.",
+    "description1": "To understand the needs and expectations of people and respond to them adequately, thorough analysis is required. Below are possible methods for identifying needs:",
+    "label2": "The potential strengths and competencies of D-Bridge e.V.",
+    "description2": "Here are various professional services as well as a wide range of supportive services in the social sphere listed. Here are some of our outstanding competencies:",
+    "items": {
+      "subtitle1": "Counseling",
+      "text1": "Conducting individual counseling sessions with people to better understand their needs and challenges. We can discuss their interests, educational goals, and possible support needs.",
+      "subtitle2": "Market Research and Job Placement Counseling",
+      "text2": "By analyzing labor market statistics and trends, we can identify current needs and requirements. We can then develop targeted counseling offers to assist people in career orientation and job search.",
+      "subtitle3": "Request for Interesting Topics",
+      "text3": "Collecting feedback from potential participants through surveys or direct interviews to determine which topics and events are most interesting and relevant to them.",
+      "subtitle4": "Additional Questionnaire",
+      "text4": "Developing a specialized questionnaire that provides detailed information about the individual needs and interests of the target audience. This can help identify specific needs that might otherwise be overlooked.",
+      "subtitle5": "Development of Programs for Children",
+      "text5": "Collaborating with parents and local communities to identify the developmental needs of children and develop targeted programs that contribute to the development of their cognitive, social, and emotional skills (tutoring, school success support, support in art activities, etc.).",
+      "subtitle6": "Professional Services",
+      "text6": "We have a team of professionals, including tax consultants, lawyers, and accountants, providing professional advice and support in legal and financial matters. Consultations are conducted in 6 languages: German, Ukrainian, Russian, Armenian, Polish, and English.",
+      "subtitle7": "Comprehensive Support in Everyday Life",
+      "text7": "Our organization provides comprehensive support in everyday life, including assistance with administrative matters, support with applications and document creation, as well as counseling on various life areas.",
+      "subtitle8": "Education and Employment Counseling",
+      "text8": "We offer individual counseling services in education and employment, including support in finding internships, further education, additional training, and retraining. Additionally, we assist in the recognition of qualifications and translation of certified documents.",
+      "subtitle9": "Efficient and Hassle-free Services",
+      "text9": "Our aim is to provide services quickly, smoothly, and easily accessible. We strive to meet the needs of our customers promptly and efficiently by providing flawless support.",
+      "subtitle10": "Inter-cultural Projects and Events",
+      "text10": "- Organization of inter-cultural festivals, cultural evenings, and culinary workshops to promote cultural exchange and overcome prejudices.- Conducting inter-cultural sports events and leisure activities to bring together people of different backgrounds and strengthen social cohesion."
+    }
+  },
+  "contactBlock": {
+    "title": "How can you contact us?",
+    "emailForm": {
+      "title": "Write to us",
+      "name": "First Name:",
+      "lastName": "Last Name:",
+      "message": "Message:",
+      "send": "Send"
+    },
+    "map": "Our Address:",
+    "contacts": {
+      "title": "Our Contact Details:",
+      "number": "Phone Number:",
+      "office": "Our Office:"
+    }
+  }
+}

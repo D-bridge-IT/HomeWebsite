@@ -3,8 +3,8 @@
   justify-content: space-between;
   transition: all 0.4s;
   max-width: 1400px;
-  margin: 30px auto;
-  padding: 0 20px 10px;
+  margin: 0 auto 20px;
+  padding: 30px 20px 10px;
 }
 @media screen and (max-width: 768px) {
   .header {
@@ -17,17 +17,24 @@
 .header__img__logo {
   width: 100px;
 }
+@media screen and (max-width: 768px) {
+  .header__img__logo {
+    width: 70px;
+  }
+}
 .header__nav {
-  max-width: 280px;
+  max-width: 550px;
   align-self: center;
 }
 @media screen and (max-width: 768px) {
   .header__nav {
-    max-width: 200px;
+    max-width: 250px;
   }
 }
 .header__nav__list {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header__nav__list__item {
   font-size: 20px;
@@ -35,7 +42,8 @@
 }
 @media screen and (max-width: 768px) {
   .header__nav__list__item {
-    margin-right: 30px;
+    margin-right: 15px;
+    font-size: 15px;
   }
 }
 .header__nav__list__item:last-child {
@@ -66,6 +74,37 @@
 }
 .header__nav__list__item__link:hover::before {
   width: 100%;
+}
+
+.box select {
+  background-color: #0563af;
+  color: white;
+  padding: 12px;
+  width: 150px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+@media screen and (max-width: 768px) {
+  .box select {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .box select {
+    width: 70px;
+  }
+}
+.box select:hover {
+  background-color: #0975ca;
+  transition: all 0.5s;
+  border-radius: 0;
+}
+
+.box select option {
+  padding: 30px;
 }
 
 /*# sourceMappingURL=Header.css.map */

@@ -1,8 +1,9 @@
 .emailForm {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 500px;
   padding: 40px;
+  width: 100%;
   border: #2e69c6 solid 3px;
   border-radius: 20px;
   margin-right: 30px;

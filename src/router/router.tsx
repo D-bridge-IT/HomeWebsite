@@ -7,7 +7,7 @@ import Home from "../pages/Home/Home";
 const Router = () => {
   return (
     <Routes>
-      <Route path="/HomeWebsite/" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>

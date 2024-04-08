@@ -8,8 +8,8 @@
   }
 
   &__leftSide {
-    max-width: 650px;
-    margin: 0 40px 0 0;
+    max-width: 1400px;
+    margin: 0 auto;
     @media screen and (max-width: 768px) {
       width: 100%;
       margin-bottom: 50px;
@@ -37,7 +37,8 @@
   }
 
   &__rightSide {
-    max-width: 650px;
+    max-width: 1400px;
+    margin: 0 auto;
     @media screen and (max-width: 768px) {
       width: 100%;
     }
@@ -72,5 +73,22 @@
   @media screen and (max-width: 768px) {
     font-size: 45px;
     margin-left: 10px;
+  }
+}
+
+.radioContainer {
+  max-width: 1400px;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-direction: column;
+
+  &__btn {
+    display: flex;
+    margin-bottom: 10px;
+
+    &__label {
+      font-size: 20px;
+      margin-left: 10px;
+    }
   }
 }

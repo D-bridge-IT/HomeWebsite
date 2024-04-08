@@ -26,6 +26,18 @@ module.exports = {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "images/",
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
@@ -35,14 +47,20 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: "public/images",
-          to: "images",
-        },
-        {
           from: "public/logo",
           to: "logo",
+        },
+        {
+          from: "public/images",
+          to: "images",
         },
       ],
     }),
   ],
+  devServer: {
+    static: path.join(__dirname, "public"),
+    compress: true,
+    port: 3000,
+    open: true,
+  },
 };

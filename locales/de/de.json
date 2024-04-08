@@ -1,0 +1,76 @@
+{
+  "header": {
+    "contact": "Kontakt",
+    "aboutUs": "Über uns"
+  },
+  "banner": {
+    "description": "Eine bessere Zukunft für alle"
+  },
+  "imgBlock": {
+    "title": "Gestalte deine Zukunft gemeinsam mit uns.",
+    "description": "Wir sind eine Gruppe engagierter Menschen mit unterschiedlichen Ansichten, verschiedenen Nationalitäten und unterschiedlichen Glaubensrichtungen, die seit dem 24. Februar 2022 freiwillig Hilfe für ukrainische Kriegsflüchtlinge geleistet haben. Im Laufe der Zeit ist unsere Initiative zu einer öffentlichen Bewegung herangewachsen. Um den Herausforderungen der heutigen Zeit zu begegnen und die Qualität der Hilfe für ALLE Bürger, die in die Bundesrepublik Deutschland kommen oder gekommen sind, zu verbessern, die Zersplitterung der freiwilligen Bemühungen zu beenden und den Austausch von Erfahrungen jedes Einzelnen von uns zu fördern, haben wir beschlossen, unsere Kräfte zu bündeln und uns als gemeinnützige Organisation D-Bridge zu registrieren.",
+    "mission": "Unsere Mission:",
+    "item1": "Unterstützung gemeinnütziger und Bildungsinitiativen",
+    "item2": "Integration von Ausländern in die deutsche Gesellschaft",
+    "item3": "Bereitstellung von Beratungsdiensten",
+    "item4": "Ausbildung und Sprachkurse",
+    "item5": "Unterstützung bei der Jobsuche und Praktika",
+    "item6": "Förderung kultureller und sportlicher Veranstaltungen",
+    "item7": "Andere Initiativen der Vereinsmitglieder"
+  },
+  "possibilitiesItem": {
+    "title1": "Beratung",
+    "description1": "Die Experten von D-Bridge bieten Beratung in den Bereichen Migrationspolitik, Arbeitsrecht, Wohnungs- und Kommunalwirtschaft an. Wir unterstützen bei der Kommunikation mit lokalen Behörden und anderen staatlichen Stellen. Wir bieten umfassende Unterstützung im Alltag, einschließlich Hilfe bei der Beantragung von Vergünstigungen, Sozialhilfe, Unterstützung bei der Vorbereitung von Anträgen und der Erstellung von Dokumenten.",
+    "title2": "Programme für Kinder",
+    "description2": "D-Bridge bietet Unterstützung und Beratung zu Bildungsprogrammen für Kinder an. Mit Unterstützung von D-Bridge wird eine Schule für die Entwicklung von Kindern eröffnet.",
+    "title3": "Integration",
+    "description3": "D-Bridge beschäftigt sich mit der Integration von Bürgern, indem es ein umfassendes Dienstleistungspaket anbietet, das auf eine erfolgreiche Anpassung und aktive Teilnahme am gesellschaftlichen Leben abzielt. Wir bieten Beratung zu Migrationsfragen an, bieten Begleitung und Unterstützung bei administrativen Formalitäten, helfen bei der Wohnungssuche, der Arbeitsplatzsuche und beim Erlernen der Sprache.",
+    "title4": "Arbeitsvermittlung",
+    "description4": "Derzeit pflegt D-Bridge Partnerschaften mit verschiedenen Bildungseinrichtungen, Arbeitgebern und Handelskammern und kann die Erlangung neuer Qualifikationen oder die Anerkennung bereits vorhandener anbieten."
+  },
+  "accordion": {
+    "title": "Wie genau können wir helfen?",
+    "label1": "Die Analyse der Erwartungen und Bedürfnisse von Menschen.",
+    "description1": "Um die Bedürfnisse und Erwartungen der Menschen zu verstehen und angemessen darauf zu reagieren, ist eine gründliche Analyse erforderlich. Im Folgenden sind mögliche Methoden zur Identifizierung von Bedürfnissen beschrieben:",
+    "label2": "Die potenziellen Stärken und Kompetenzen des D-Bridge e.V.",
+    "description2": "Hier sind verschiedene professionelle Dienstleistungen sowie ein breites Spektrum an unterstützenden Dienstleistungen im sozialen Bereich aufgeführt. Hier sind einige unserer herausragenden Kompetenzen:",
+    "items": {
+      "subtitle1": "Beratung",
+      "text1": "Durchführung individueller Beratungsgespräche mit Menschen, um ihre Bedürfnisse und Herausforderungen besser zu verstehen. Wir können sie nach ihren Interessen, Bildungszielen und möglichen Unterstützungsbedarfen fragen.",
+      "subtitle2": "Marktforschung und Beratung zur Arbeitsvermittlung",
+      "text2": "Durch die Analyse von Arbeitsmarktstatistiken und -trends können wir aktuelle Bedürfnisse und Anforderungen identifizieren. Anschließend können wir gezielte Beratungsangebote entwickeln, die Menschen bei der beruflichen Orientierung und Jobsuche unterstützen.",
+      "subtitle3": "Anfrage nach interessanten Themen",
+      "text3": "Erfassung von Feedback von potenziellen Teilnehmern mittels Umfragen oder direkten Befragungen, um festzustellen, welche Themen und Veranstaltungen für sie am interessantesten und relevantesten sind.",
+      "subtitle4": "Zusätzlicher Fragebogen",
+      "text4": "Entwicklung eines speziellen Fragebogens, der detaillierte Informationen über die individuellen Bedürfnisse und Interessen der Zielgruppe liefert. Dies kann helfen, spezifische Bedürfnisse zu identifizieren, die sonst möglicherweise übersehen würden.",
+      "subtitle5": "Entwicklung von Programmen für Kinder",
+      "text5": "Zusammenarbeit mit Eltern und lokalen Gemeinschaften zur Identifizierung der Entwicklungsbedürfnisse von Kindern und zur Entwicklung zielgerichteter Programme, die zur Entwicklung ihrer kognitiven, sozialen und emotionalen Fähigkeiten beitragen (Nachhilfe, Schulerfolgsunterstützung, Unterstützung bei Malaktivitäten usw.).",
+      "subtitle6": "Professional services",
+      "text6": "We have a team of professionals, including tax consultants, lawyers, and accountants, providing professional advice and support in legal and financial matters. Consultations are conducted in 6 languages: German, Ukrainian, Russian, Armenian, Polish, and English.",
+      "subtitle7": "Umfassende Unterstützung im Alltag",
+      "text7": "Unsere Organisation bietet umfassende Unterstützung im Alltag, einschließlich Hilfe bei Behördenangelegenheiten, Unterstützung bei Anträgen und Dokumentenerstellung sowie Beratung zu verschiedenen Lebensbereichen.",
+      "subtitle8": "Beratung im Bereich Bildung und Arbeit",
+      "text8": "Wir bieten individuelle Beratungsdienste im Bereich Bildung und Arbeit an, einschließlich Unterstützung bei der Suche nach Praktika, Weiterbildung, zusätzlicher Bildung und Umschulung. Darüber hinaus unterstützen wir bei der Anerkennung von Qualifikationen und der Übersetzung von beglaubigten Dokumenten.",
+      "subtitle9": "Effiziente und problemlose Dienstleistungen",
+      "text9": "Unser Ziel ist es, Dienstleistungen schnell, reibungslos und leicht zugänglich bereitzustellen. Wir streben danach, die Bedürfnisse unserer Kunden prompt und effizient zu erfüllen, indem wir makellose Unterstützung bieten.",
+      "subtitle10": "Interkulturelle Projekte und Veranstaltungen",
+      "text10": "- Organisation interkultureller Festivals, Kulturabende und kulinarischer Workshops zur Förderung des kulturellen Austauschs und zur Überwindung von Vorurteilen.- Durchführung interkultureller Sportveranstaltungen und Freizeitaktivitäten zur Zusammenführung von Menschen unterschiedlicher Herkunft und zur Stärkung des sozialen Zusammenhalts."
+    }
+  },
+  "contactBlock": {
+    "title": "Wie können Sie uns kontaktieren?",
+    "emailForm": {
+      "title": "Schreiben Sie uns",
+      "name": "Vorname:",
+      "lastName": "Nachname:",
+      "message": "Nachricht:",
+      "send": "Senden"
+    },
+    "map": "Unsere Adresse:",
+    "contacts": {
+      "title": "Unsere Kontaktdaten:",
+      "number": "Telefonnummer:",
+      "office": "Unser Büro:"
+    }
+  }
+}

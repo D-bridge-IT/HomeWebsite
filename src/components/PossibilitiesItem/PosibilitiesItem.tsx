@@ -7,23 +7,24 @@ interface PossibilitiesItemProps {
   description: string;
 }
 
-const PosibilitiesItem: React.FC<PossibilitiesItemProps> = ({
+const PossibilitiesItem: React.FC<PossibilitiesItemProps> = ({
   image,
   title,
   description,
 }) => {
   return (
     <div className={"possibilitiesWrapper"}>
-      <h3 className={"possibilitiesWrapper__title"}>{title}</h3>
       <div className={"possibilitiesWrapper__imgContainer"}>
         <img
           className={"possibilitiesWrapper__imgContainer__img"}
           src={image}
+          alt={title}
         />
+        <p className={"possibilitiesWrapper__description"}>{description}</p>
+        <h3 className={"possibilitiesWrapper__title"}>{title}</h3>
       </div>
-      <p className={"possibilitiesWrapper__description"}>{description}</p>
     </div>
   );
 };
 
-export default PosibilitiesItem;
+export default PossibilitiesItem;

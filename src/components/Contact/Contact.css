@@ -38,30 +38,68 @@
   font-size: 27px;
   margin-bottom: 30px;
 }
-.contactWrapper__content__mapContainer__mapSubtitle {
+.contactWrapper__content__rightSide__mapContainer {
+  margin-bottom: 20px;
+}
+.contactWrapper__content__rightSide__mapContainer__mapSubtitle {
   font-size: 27px;
   margin-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
-  .contactWrapper__content__mapContainer__mapSubtitle {
+  .contactWrapper__content__rightSide__mapContainer__mapSubtitle {
     font-size: 25px;
     text-align: center;
   }
 }
 @media screen and (max-width: 768px) {
-  .contactWrapper__content__mapContainer__map {
+  .contactWrapper__content__rightSide__mapContainer__map {
     display: none;
   }
 }
 @media screen and (min-width: 769px) {
-  .contactWrapper__content__mapContainer__smallMap {
+  .contactWrapper__content__rightSide__mapContainer__smallMap {
     display: none;
   }
 }
 @media screen and (max-width: 768px) {
-  .contactWrapper__content__mapContainer__smallMap {
+  .contactWrapper__content__rightSide__mapContainer__smallMap {
     margin: 0 auto;
   }
+}
+.contactWrapper__content__rightSide__contacts {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .contactWrapper__content__rightSide__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.contactWrapper__content__rightSide__contacts__mainTitle {
+  font-size: 27px;
+  margin-bottom: 30px;
+}
+.contactWrapper__content__rightSide__contacts__wrapper {
+  max-width: 300px;
+  border: #2e69c6 solid 3px;
+  border-radius: 20px;
+  padding: 30px;
+}
+.contactWrapper__content__rightSide__contacts__wrapper__title {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.contactWrapper__content__rightSide__contacts__wrapper__number {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+.contactWrapper__content__rightSide__contacts__wrapper__text {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=Contact.css.map */

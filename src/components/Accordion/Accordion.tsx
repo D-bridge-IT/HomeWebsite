@@ -1,95 +1,100 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Accordion.scss";
 import FaqBlock from "../FaqBlock/FaqBlock";
+import { useTranslation } from "react-i18next";
 
 const Accordion = () => {
+  const [displaySide, setDisplaySide] = useState("left");
+  const { t } = useTranslation();
+
   return (
     <div>
-      <h2 className={"title"}>Как именно мы поможем?</h2>
+      <h2 className={"title"}>{t("accordion.title")}</h2>
+      <div className={"radioContainer"}>
+        <div className={"radioContainer__btn"}>
+          <input
+            type="radio"
+            id="leftSide"
+            name="side"
+            value="left"
+            checked={displaySide === "left"}
+            onChange={() => setDisplaySide("left")}
+          />
+          <label htmlFor="leftSide" className={"radioContainer__btn__label"}>
+            {t("accordion.label1")}
+          </label>
+        </div>
+        <div className={"radioContainer__btn"}>
+          <input
+            type="radio"
+            id="rightSide"
+            name="side"
+            value="right"
+            checked={displaySide === "right"}
+            onChange={() => setDisplaySide("right")}
+          />
+          <label htmlFor="rightSide" className={"radioContainer__btn__label"}>
+            {t("accordion.label2")}
+          </label>
+        </div>
+      </div>
+
       <div className={"accordionWrapper"}>
-        <div className={"accordionWrapper__leftSide"}>
-          <h2 className={"accordionWrapper__leftSide__title"}>
-            Анализ ожиданий и потребностей людей
-          </h2>
-          <p className={"accordionWrapper__leftSide__description"}>
-            Чтобы понять потребности и ожидания людей и адекватно на них
-            реагировать, необходим детальный анализ. Ниже описаны возможные
-            способы выявления потребностей:
-          </p>
-          <FaqBlock
-            title={"Консультации"}
-            content={
-              "Проведение индивидуальных консультаций с людьми для лучшего понимания их потребностей и вызовов. Мы можем спрашивать у них об их интересах, образовательных целях и возможной потребности в поддержке."
-            }
-          ></FaqBlock>
-          <FaqBlock
-            title={
-              "Исследование рынка труда и консультирование по трудоустройству"
-            }
-            content={
-              "Путем анализа статистики и трендов на рынке труда мы можем выявить текущие потребности и требования. Затем мы можем разработать целенаправленные консультационные предложения, которые помогут людям в профессиональной ориентации и поиске работы."
-            }
-          ></FaqBlock>
-          <FaqBlock
-            title={"Запрос на интересные темы"}
-            content={
-              "Получение обратной связи от потенциальных участников с помощью опросов или прямых опросов, чтобы определить, какие темы и мероприятия для них наиболее интересны и актуальны."
-            }
-          ></FaqBlock>
-          <FaqBlock
-            title={"Дополнительный опросник"}
-            content={
-              "Разработка специального опросника, который предоставит подробную информацию о индивидуальных потребностях и интересах целевой аудитории. Это может помочь выявить специфические потребности, которые в противном случае могли бы быть упущены."
-            }
-          ></FaqBlock>
-          <FaqBlock
-            title={"Разработка программ для детей"}
-            content={
-              "Сотрудничество с родителями и местными сообществами для выявления потребностей развития детей и разработки целенаправленных программ, способствующих развитию их когнитивных, социальных и эмоциональных навыков (репетиторство, помощь в школе, поддержка в занятиях живописью и т. д.)."
-            }
-          ></FaqBlock>
-        </div>
-        <div className={"accordionWrapper__rightSide"}>
-          <h2 className={"accordionWrapper__rightSide__title"}>
-            Потенциальные сильные стороны и компетенции D-Bridge e.V.
-          </h2>
-          <p className={"accordionWrapper__rightSide__description"}>
-            Здесь приведены разнообразные профессиональные услуги, а также
-            широкий спектр поддерживающих услуг в социальной сфере. Вот
-            несколько из наших выдающихся компетенций:
-          </p>
-          <FaqBlock
-            title={"Профессиональные услуги"}
-            content={
-              "У нас есть команда профессионалов, включая налоговых консультантов, юристов и бухгалтеров, предоставляющих профессиональные консультации и поддержку в правовых и финансовых вопросах. Консультации проводятся на 6 языках: немецком, украинском, русском, армянском, польском и английском."
-            }
-          ></FaqBlock>
-          <FaqBlock
-            title={"Комплексная поддержка в повседневной жизни"}
-            content={
-              "Наша организация предоставляет комплексную поддержку в повседневной жизни, включая помощь в оформлении вопросов перед органами, поддержку в подаче заявлений и составлении документов, а также консультации по различным сферам жизни."
-            }
-          ></FaqBlock>
-          <FaqBlock
-            title={"Консультации в области образования и труда"}
-            content={
-              "Мы предоставляем индивидуальные консультационные услуги в области образования и труда, включая поддержку в поиске стажировки, обучении, дополнительном образовании и переквалификации. Кроме того, мы помогаем в признании квалификаций и переводе документов с заверенными печатями."
-            }
-          ></FaqBlock>
-          <FaqBlock
-            title={"Эффективные и беспроблемные услуги"}
-            content={
-              "Наша цель - предоставлять услуги быстро, без проблем и легко доступно. Мы стремимся удовлетворить потребности наших клиентов оперативно и эффективно, обеспечивая безупречную поддержку."
-            }
-          ></FaqBlock>
-          <FaqBlock
-            title={"Межкультурные проекты и мероприятия"}
-            content={
-              "  - Организация межкультурных фестивалей, культурных вечеров и кулинарных мастер-классов для поощрения культурного обмена и разрушения предубеждений.\n" +
-              "   - Проведение межкультурных спортивных мероприятий и досуговых активностей для объединения людей разных происхождений и укрепления социальной связи."
-            }
-          ></FaqBlock>
-        </div>
+        {displaySide === "left" && (
+          <div className={"accordionWrapper__leftSide"}>
+            <p className={"accordionWrapper__leftSide__description"}>
+              {t("accordion.description1")}
+            </p>
+            <FaqBlock
+              title={t("accordion.items.subtitle1")}
+              content={t("accordion.items.text1")}
+            />
+            <FaqBlock
+              title={t("accordion.items.subtitle2")}
+              content={t("accordion.items.text2")}
+            />
+            <FaqBlock
+              title={t("accordion.items.subtitle3")}
+              content={t("accordion.items.text3")}
+            />
+            <FaqBlock
+              title={t("accordion.items.subtitle4")}
+              content={t("accordion.items.text4")}
+            />
+            <FaqBlock
+              title={t("accordion.items.subtitle5")}
+              content={t("accordion.items.text5")}
+            />
+          </div>
+        )}
+
+        {displaySide === "right" && (
+          <div className={"accordionWrapper__rightSide"}>
+            <p className={"accordionWrapper__rightSide__description"}>
+              {t("accordion.description2")}
+            </p>
+            <FaqBlock
+              title={t("accordion.items.subtitle6")}
+              content={t("accordion.items.text6")}
+            />
+            <FaqBlock
+              title={t("accordion.items.subtitle7")}
+              content={t("accordion.items.text7")}
+            />
+            <FaqBlock
+              title={t("accordion.items.subtitle8")}
+              content={t("accordion.items.text8")}
+            />
+            <FaqBlock
+              title={t("accordion.items.subtitle9")}
+              content={t("accordion.items.text9")}
+            />
+            <FaqBlock
+              title={t("accordion.items.subtitle10")}
+              content={t("accordion.items.text10")}
+            />
+          </div>
+        )}
       </div>
     </div>
   );
