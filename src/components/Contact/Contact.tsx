@@ -34,20 +34,6 @@ const Contact = () => {
                   "contactWrapper__content__rightSide__contacts__wrapper__title"
                 }
               >
-                {t("contactBlock.contacts.number")}
-              </h4>
-              <p
-                className={
-                  "contactWrapper__content__rightSide__contacts__wrapper__number"
-                }
-              >
-                +123456789123
-              </p>
-              <h4
-                className={
-                  "contactWrapper__content__rightSide__contacts__wrapper__title"
-                }
-              >
                 {t("contactBlock.contacts.office")}
               </h4>
               <p
@@ -55,14 +41,14 @@ const Contact = () => {
                   "contactWrapper__content__rightSide__contacts__wrapper__text"
                 }
               >
-                Oststraße 12,{" "}
+                D-Bridge e.V Wulfshofstraße 1,
               </p>
               <p
                 className={
                   "contactWrapper__content__rightSide__contacts__wrapper__text"
                 }
               >
-                41065 Mönchengladbach
+                44149 Dortmund
               </p>
             </div>
           </div>
